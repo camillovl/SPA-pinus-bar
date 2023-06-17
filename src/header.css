@@ -1,0 +1,13 @@
+.header{
+  height:340px ;
+  text-align: center;
+}
+.header_logo{
+  margin-top:50px;
+  height:25vmin;
+}
+.header_text{
+  color: black;
+  display: inline;
+  border-bottom: 3px solid #000;
+}
