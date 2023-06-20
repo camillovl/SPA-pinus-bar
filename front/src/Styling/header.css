@@ -1,0 +1,12 @@
+.header{  
+  background-image: url("../images/Caravan.jpg");
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+}
+.header_text{
+  color: black;
+  display: inline;
+  border-bottom: 3px solid #000;
+}

@@ -1,0 +1,58 @@
+.nav{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+/*
+No código abaixo selecionamos a tag com a className = nav e especifcamos dentro dessa tag 
+a tag li com o className = active para criar um backgroud color para ele
+e logo depois com o :hover definimos que ao passarmos o mouse em cima a sua cor ira mudar para a cor definida
+*/
+.nav li.active{
+    font-size: 1.15em;
+    border-radius: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.nav li.active:hover{
+    background-color:  #777;
+}
+
+#sacola{
+    margin-right: 1.8em;
+
+}
+.mainpage_logo{
+    width: auto;
+    height: auto;
+
+}
+.mainpage_title{
+    font-size: 2rem;
+
+}
+
+

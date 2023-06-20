@@ -1,0 +1,28 @@
+.App {
+    font-family: monospace;
+  }
+
+  .item_cardapio {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .item_cardapio_image {
+    height: 10%;
+    width: 48%;
+  }
+  
+  .item_cardapio__text-container {
+    width: 48%;
+  }  
+  .item_cardapio__price-and-title {
+    text-decoration: underline;
+    text-decoration-thickness: 0.2em;
+    text-decoration-style: dotted;
+    text-decoration-color: rgba(163,131,74,255);
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
