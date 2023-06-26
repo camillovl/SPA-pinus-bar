@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
 
-import Home from './pages/Home';
-import Login from './pages/Login';
-import Sacola from './pages/Sacola';
+import Homepage from './pages/HomePage';
+import Loginpage from './pages/LoginPage';
+import CreateAccountPage from './pages/Createaccountpage';
+import Sacolapage from './pages/SacolaPage';
 import ErrorPage from './pages/ErrorPage';
 
 const router = createBrowserRouter([
@@ -19,15 +22,19 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home/>
+        element: <Homepage/>
       },
       {
         path:"login",
-        element: <Login/>
+        element: <Loginpage/>
+      },
+      {
+        path:'/create-account',
+        element: <CreateAccountPage/>
       },
       {
         path: "sacola",
-        element: <Sacola/>
+        element: <Sacolapage/>
       },
     ]
   },

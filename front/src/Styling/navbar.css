@@ -1,58 +1,66 @@
-.nav{
-    color:white;
+.nav {
+    color: white;
+    background-color: black;
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
-    gap: 2rem;
-    padding: 0 1rem;
+    padding: 1rem;
     position: fixed;
-    top:0;
-    width: 100%;
-}
-
-.nav ul {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  .nav ul {
     padding: 0;
     margin: 0;
     list-style: none;
     display: flex;
     gap: 1rem;
-}
-
-.nav a{
+  }
+  
+  .nav a {
     color: inherit;
     text-decoration: none;
-    height: 100%;
     display: flex;
     align-items: center;
-    padding: .25rem;
-}
-/*
-No código abaixo selecionamos a tag com a className = nav e especifcamos dentro dessa tag 
-a tag li com o className = active para criar um backgroud color para ele
-e logo depois com o :hover definimos que ao passarmos o mouse em cima a sua cor ira mudar para a cor definida
-*/
-.nav li.active{
+    padding: 0.25rem;
+    position: relative;
+  }
+  
+  .nav li.active {
     font-size: 1.15em;
     border-radius: 10%;
     margin-top: 10%;
     margin-bottom: 10%;
-}
-.nav li.active:hover{
-    background-color:  #777;
-}
-
-#sacola{
-    margin-right: 1.8em;
-
-}
-.mainpage_logo{
+  }
+  
+  .nav li.active:hover {
+    background-color: #777;
+  }
+  
+  #sacola {
+    margin-right: 2em;
+    position: relative;
+    font-size: 1.5rem; /* Tamanho do ícone */
+  }
+  
+  .contador-itens {
+    background-color: red;
+    color: white;
+    padding: 6px;
+    border-radius: 50%;
+    font-size: 14px; /* Tamanho do contador */
+    position: absolute;
+    top: -12px;
+    right: -12px;
+  }
+  .mainpage_logo {
     width: auto;
     height: auto;
-
-}
-.mainpage_title{
+  }
+  
+  .mainpage_title {
     font-size: 2rem;
-
-}
-
-
+  }
+  

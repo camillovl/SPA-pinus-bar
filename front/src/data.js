@@ -1,4 +1,5 @@
-const cardapio = [    
+ /*
+ const cardapio = [    
        {
             id:1,
             nome: "TRADICIONAL",

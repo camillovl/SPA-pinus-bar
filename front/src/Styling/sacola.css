@@ -1,0 +1,59 @@
+.container{
+    margin-top: 5em;
+}
+.sacola {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .sacola__mensagem{
+    text-align: center;
+  }
+  
+  .sacola__titulo {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .sacola__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .sacola__item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .sacola__item__info {
+    flex-grow: 1;
+  }
+  
+  .sacola__item__nome {
+    font-weight: bold;
+  }
+  
+  .sacola__item__preco {
+    color: #888;
+  }
+  
+  .sacola__item__acoes {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sacola__item__acoes button {
+    border: none;
+    background-color: transparent;
+    color: #888;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
