@@ -16,7 +16,7 @@ app.get('/cardapio', (req, res) => {
          nome: "TRADICIONAL",
          category: "hamburguer",
          preco: "24,75",
-         img:'http://localhost:5555/images/hamburguer3.jpg',
+         img:'http://localhost:5555/images/Duplo-3-queijos.jpg',
          descricao: "Hamburguer,mussarela, alface, tomate, cebola roxa, ketchup, mostrada e molho pinus"
      },
      {
@@ -77,21 +77,30 @@ app.get('/cardapio', (req, res) => {
      },
      {
          id:9,
-         nome: "Sundae",
+         nome: "PASTELZINHO DE NUTELLA",
          category: "Sobremesa",
-         preco:"17,00",
+         preco:"25,00",
          img:'',
-         descricao:"sorvete"
+         descricao:"10 unidades"
+     },
+     {
+        id:10,
+        nome: "BROWNIE COM SORVETE",
+        category: 'sobremesa',
+        preco: '28,00',
+        descricao:'3 bolas de sorvete, frutas e cobertura de chocolate',     
+     },
+     {
+        id:11,
+        nome: "TACA MORANGO COM CHOCOLATE",
+        category: 'sobremesa',
+        preco: '28,00',
+        descricao:'NOVO',     
      }
+
 
 ]);
 });
-
-app.post('/submit', (req, res) => {
-  console.log(req.body);
-  res.send('Dados recebidos!');
-});
-
 // Iniciando o servidor
 const PORT = 5555;
 app.listen(PORT, () => {
